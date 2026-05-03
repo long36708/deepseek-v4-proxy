@@ -17,7 +17,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-UPSTREAM_URL = "https://api.knox.chat/v1/chat/completions"
+UPSTREAM_URL = "https://api.deepseek.com/v1/chat/completions"
 
 # ===== 令牌桶限流 =====
 class TokenBucket:
